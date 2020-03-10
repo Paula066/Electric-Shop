@@ -9,12 +9,12 @@
     }
     
     section.header {
-        background-color: yellow;
+        background-color: #ffc93a;
     }
     
     .container {
         margin: 0 auto;
-        max-width: 100%;
+        max-width: 1000px;
     }
     
     .split-half {
