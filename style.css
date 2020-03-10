@@ -1,0 +1,108 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .yellow-container {
+        background-color: #ffc93a;
+        height: 244px;
+    }
+    
+    .split-half {
+        flex: 1;
+        justify-content: center;
+        font-size: 12px;
+        padding: 10px;
+        font-family: 'Rubik', sans-serif;
+        border-bottom: 1px solid #ededed;
+        text-align: center;
+    }
+    
+    .split-half a {
+        color: black;
+        text-decoration: none;
+        padding: 5px;
+    }
+    
+    .ico::before {
+        content: '';
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-repeat: no-repeat;
+        transform: translateY(8px);
+        padding-right: 6px;
+    }
+    
+    .ico.mail::before {
+        background-image: url('./img/ico6.png');
+    }
+    
+    .ico.phone::before {
+        background-image: url('./img/ico5.png');
+    }
+    
+    .border {
+        padding: 50px 0;
+        border-bottom: 1px solid #ededed;
+    }
+    
+    .trolley a {
+        color: black;
+        text-decoration: none;
+        font-family: 'Rubik', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    
+    .logo.box {
+        transform: translateX(206px);
+    }
+    
+    .trolley.box {
+        padding-left: 50px;
+    }
+    
+    .box {
+        flex: 1;
+    }
+    
+    .icon::before {
+        width: 50px;
+        height: 38px;
+        display: inline-block;
+        content: '';
+        background-repeat: no-repeat;
+        transform: translateY(14px);
+    }
+    
+    .icon.account::before {
+        background-image: url('./img/intimg1.png');
+    }
+    
+    .icon.trolley::before {
+        background-image: url('./img/intimg2.png');
+    }
+    
+    input[type="text"] {
+        width: 80%;
+        height: 50px;
+        font-size: 15px;
+    }
+    
+    input[type="submit"] {
+        width: 20%;
+        height: 50px;
+    }
+    /* .ico.currency::before {
+        width: 1px;
+        background-color: black;
+        margin-right: 10px;
+        height: 40px;
+    } */
