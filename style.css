@@ -4,6 +4,14 @@
         box-sizing: border-box;
     }
     
+    body {
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
     section.header {
         background-color: #ffc93a;
         margin-bottom: 30px;
@@ -12,7 +20,6 @@
     .container {
         margin: 0 auto;
         width: 1100px;
-        font-family: 'Rubik', sans-serif;
     }
     
     .flex {
@@ -164,7 +171,7 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        max-height: 454px;
+        max-height: 452px;
         overflow: scroll;
     }
     
@@ -232,31 +239,36 @@
     }
     
     .main {
-        bottom: 200px;
-        left: 16px;
+        top: 170px;
+        left: 50px;
         font-weight: 500;
         font-size: 46px;
     }
     
     .medium {
-        bottom: 150px;
-        left: 16px;
+        top: 225px;
+        left: 50px;
         font-size: 22px;
     }
     
+    .products-img {
+        position: relative;
+    }
+    
     .btn {
-        bottom: 100px;
-        left: 16px;
+        top: 275px;
+        left: 50px;
         background-color: transparent;
         border: 1px solid black;
         border-radius: 12px;
         padding: 10px 20px;
+        text-transform: uppercase;
     }
     
     .square {
-        border: 1px solid gray;
+        border: 1px solid #ececec;
         margin-top: 30px;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
         padding-left: 54px;
     }
     
@@ -296,6 +308,42 @@
     .img {
         flex: 1;
         margin: 30px;
+    }
+    
+    .huge {
+        top: 67px;
+        left: 38px;
+        font-size: 28px;
+        font-weight: 500;
+    }
+    
+    .btn-normal {
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        border: 1px solid black;
+        border-radius: 12px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+    }
+    
+    .medium2 {
+        top: 104px;
+        left: 38px;
+        font-size: 18px;
+    }
+    
+    .btn-normal {
+        top: 153px;
+        left: 38px;
+    }
+    
+    .products-img {
+        flex: 1;
+    }
+    
+    .products-img:first-child {
+        margin-right: 33px;
     }
     
     @media (max-width: 1280px) {
