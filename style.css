@@ -74,7 +74,7 @@
     }
     
     .box {
-        flex-grow: 1;
+        flex: 1
     }
     
     .split-half .icoafter {
@@ -329,6 +329,33 @@
         font-size: 18px;
     }
     
+    .data {
+        font-size: 12px;
+    }
+    
+    .description-product {
+        padding-bottom: 76px;
+        font-size: 13px;
+    }
+    
+    .color {
+        background-color: blue;
+    }
+    
+    .medium-product-img:first-child {
+        margin-right: 32px;
+    }
+    
+    .medium-product-img:nth-child(2) {
+        margin-right: 32px;
+    }
+    
+    h5 {
+        padding: 25px 0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
     .btn-normal {
         top: 153px;
         left: 38px;
@@ -360,6 +387,135 @@
         font-size: 9px;
         font-weight: 500;
         text-transform: uppercase;
+    }
+    
+    .product {
+        padding-bottom: 48px;
+    }
+    
+    .product-img {
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .product-description {
+        padding: 28px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .price {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .producers {
+        border: 1px solid black;
+        height: 100px;
+    }
+    
+    .newsletter {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    
+    .footer-top-text {
+        font-size: 13px;
+        text-transform: uppercase;
+        text-align: center;
+        align-self: center;
+    }
+    
+    .searchbar2 {
+        height: 52px;
+        width: 355px;
+        border: 1px solid white;
+    }
+    
+    .textbefore::before {
+        content: 'Bądz na bieząco i zapisz się do naszego newslettera';
+        width: 415px;
+        transform: translateY(15px);
+    }
+    
+    .submitbutton2 {
+        background-color: #ffc93a;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 500;
+        border: 1px solid #ffc93a;
+        height: 52px;
+        width: 105px;
+    }
+    
+    .footer-top {
+        padding: 54px 0;
+        border-bottom: 1px solid #e1e1e1;
+    }
+    
+    .footer-icon::before {
+        content: '';
+        width: 39px;
+        height: 47px;
+        background-repeat: no-repeat;
+        display: inline-block;
+        transform: translateY(10px);
+        margin-left: 30px;
+    }
+    
+    .footer-icon.newsletter::before {
+        background-image: url('./img/newsletter.png');
+        background-repeat: no-repeat;
+    }
+    
+    .footer {
+        background-color: #f4f4f4;
+    }
+    
+    .footer-m {
+        border-bottom: 1px solid #e1e1e1;
+    }
+    
+    .footer-medium {
+        padding: 53px 0;
+    }
+    
+    h6 {
+        font-size: 16px;
+        font-weight: 500;
+        padding-bottom: 34px;
+    }
+    
+    ul.footer-lists li {
+        list-style-type: none;
+        padding: 6px 0;
+    }
+    
+    ul.footer-lists li a {
+        color: black;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    .footer-bootom-text {
+        text-transform: uppercase;
+        font-size: 12px;
+        text-align: center;
+        padding: 46px 0;
+    }
+    
+    .ico-logo::after {
+        content: '';
+        width: 155px;
+        height: 18px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+    }
+    
+    .ico-logo.footer-bootom-text::after {
+        background-image: url('./img/minilogo.png');
     }
     
     @media (max-width: 1280px) {
