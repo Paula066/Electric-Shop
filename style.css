@@ -509,6 +509,16 @@
         transform: translateY(-14px);
     }
     
+    .footer-top-icon::after {
+        content: '';
+        width: 1px;
+        height: 17px;
+        background-color: #e1e1e1;
+        position: absolute;
+        right: 0;
+        top: 5px
+    }
+    
     .footer {
         background-color: #f4f4f4;
     }
