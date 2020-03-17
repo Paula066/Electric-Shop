@@ -274,7 +274,7 @@
         padding-left: 54px;
     }
     
-    .iconsB {
+    .icons {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -282,7 +282,7 @@
         position: relative;
     }
     
-    .iconsB::before {
+    .icons::before {
         content: '';
         height: 41px;
         width: 54px;
@@ -292,7 +292,17 @@
         top: -11%;
     }
     
-    .iconsB.img::before {
+    .icons::after {
+        content: '';
+        width: 1px;
+        height: 40px;
+        display: inline-block;
+        background-color: #ececec;
+        position: absolute;
+        right: 24px;
+    }
+    
+    .icons.img::before {
         background-image: url('./img/car.png');
     }
     
@@ -348,11 +358,11 @@
         background-color: blue;
     }
     
-    .medium-product-img:first-child {
+    .medium-product:first-child {
         margin-right: 32px;
     }
     
-    .medium-product-img:nth-child(2) {
+    .medium-product:nth-child(2) {
         margin-right: 32px;
     }
     
@@ -569,6 +579,11 @@
     
     .ico-logo.footer-bootom-text::after {
         background-image: url('./img/minilogo.png');
+    }
+    
+    .medium-product-img {
+        min-height: 245px;
+        max-height: 245px;
     }
     
     @media (max-width: 1280px) {
