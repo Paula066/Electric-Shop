@@ -29,8 +29,15 @@
     
     .split-half {
         flex: 1;
-        border-bottom: 1px solid gray;
         padding: 15px 0;
+    }
+    
+    .border-bottom-top {
+        border-bottom: 1px solid #e5b534;
+    }
+    
+    .border-bottom {
+        border-bottom: 1px solid #e6e6e6;
     }
     
     .ico::before {
@@ -69,7 +76,6 @@
     }
     
     .border {
-        border-bottom: 1px solid gray;
         padding: 50px 0;
     }
     
@@ -417,7 +423,7 @@
     }
     
     .producers {
-        border: 1px solid black;
+        border: 1px solid #e6e6e6;
         height: 100px;
     }
     
@@ -463,10 +469,6 @@
     
     .footer {
         background-color: #f4f4f4;
-    }
-    
-    .footer-m {
-        border-bottom: 1px solid #e1e1e1;
     }
     
     .footer-medium {
