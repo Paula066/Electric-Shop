@@ -268,7 +268,7 @@
         padding-left: 54px;
     }
     
-    .icons {
+    .iconsB {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -276,7 +276,7 @@
         position: relative;
     }
     
-    .icons::before {
+    .iconsB::before {
         content: '';
         height: 41px;
         width: 54px;
@@ -286,7 +286,7 @@
         top: -11%;
     }
     
-    .icons.img::before {
+    .iconsB.img::before {
         background-image: url('./img/car.png');
     }
     
@@ -391,6 +391,11 @@
     
     .product {
         padding-bottom: 48px;
+        min-height: 150px;
+    }
+    
+    .products-img {
+        min-height: 200px;
     }
     
     .product-img {
@@ -418,12 +423,14 @@
     .newsletter {
         font-size: 22px;
         font-weight: 500;
+        text-align: center;
+        align-self: left;
     }
     
     .footer-top-text {
         font-size: 13px;
         text-transform: uppercase;
-        text-align: center;
+        text-align: right;
         align-self: center;
     }
     
@@ -431,12 +438,6 @@
         height: 52px;
         width: 355px;
         border: 1px solid white;
-    }
-    
-    .textbefore::before {
-        content: 'Bądz na bieząco i zapisz się do naszego newslettera';
-        width: 415px;
-        transform: translateY(15px);
     }
     
     .submitbutton2 {
@@ -454,17 +455,7 @@
         border-bottom: 1px solid #e1e1e1;
     }
     
-    .footer-icon::before {
-        content: '';
-        width: 39px;
-        height: 47px;
-        background-repeat: no-repeat;
-        display: inline-block;
-        transform: translateY(10px);
-        margin-left: 30px;
-    }
-    
-    .footer-icon.newsletter::before {
+    .footer-top-icon.newsletter::before {
         background-image: url('./img/newsletter.png');
         background-repeat: no-repeat;
     }
@@ -479,6 +470,13 @@
     
     .footer-medium {
         padding: 53px 0;
+    }
+    
+    .footer-top-text {
+        text-transform: uppercase;
+        font-size: 13px;
+        align-self: center;
+        margin: 20px;
     }
     
     h6 {
