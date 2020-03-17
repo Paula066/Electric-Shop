@@ -317,6 +317,10 @@
         padding-bottom: 5px;
     }
     
+    .color {
+        color: white;
+    }
+    
     .img {
         flex: 1;
         margin: 30px;
@@ -333,10 +337,11 @@
         top: 0;
         left: 0;
         background-color: transparent;
-        border: 1px solid black;
+        border: 1px solid white;
         border-radius: 12px;
         padding: 10px 20px;
         text-transform: uppercase;
+        color: white;
     }
     
     .medium2 {
@@ -352,10 +357,6 @@
     .description-product {
         padding-bottom: 76px;
         font-size: 13px;
-    }
-    
-    .color {
-        background-color: blue;
     }
     
     .medium-product:first-child {
