@@ -780,4 +780,22 @@
         }
     }
     
-    @media (max-width: 520px) {}
+    @media (max-width: 520px) {
+        .container {
+            width: 400px;
+        }
+        .product {
+            flex-basis: 50%;
+        }
+        .category {
+            display: none;
+        }
+        .banners {
+            display: block;
+        }
+        .banner-img {
+            max-height: 100%;
+            padding-bottom: 20px;
+            min-width: 100%
+        }
+    }
