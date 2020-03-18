@@ -823,6 +823,26 @@
         ul.list-category li {
             padding: 0px 8px;
         }
+        .producers {
+            padding: 20px;
+        }
+        .arrows {
+            margin-top: -19px;
+        }
+        .banners {
+            flex-wrap: wrap;
+        }
+        .banners-img {
+            flex-basis: 51%;
+            margin-bottom: 50px;
+            flex-grow: 1;
+        }
+        .banner-img {
+            min-width: 100%;
+        }
+        .banners-img:first-child {
+            margin-right: 0;
+        }
     }
     
     @media (max-width: 520px) {
