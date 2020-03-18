@@ -32,6 +32,10 @@
         padding: 15px 0;
     }
     
+    .logo-img {
+        margin: 10px auto;
+    }
+    
     .border-bottom-top {
         border-bottom: 1px solid #e5b534;
     }
@@ -43,7 +47,7 @@
     .ico::before {
         content: '';
         height: 18px;
-        width: 18px;
+        width: 14px;
         background-repeat: no-repeat;
         display: inline-block;
         transform: translateY(7px);
@@ -103,19 +107,34 @@
     }
     
     .searchbar {
-        flex-basis: 80%;
+        width: 28vw;
         height: 100%;
         border: 1px solid white;
+        border-top-left-radius: 29px;
+        border-bottom-left-radius: 29px;
+        font-size: 20px;
+        outline: none;
     }
     
     .submitbutton {
-        width: 20%;
+        width: 28%;
         height: 100%;
         color: white;
         background-color: black;
         border: 1px solid black;
         font-weight: 500;
         text-transform: uppercase;
+        border-top-right-radius: 29px;
+        border-bottom-right-radius: 29px;
+        font-size: 13px;
+        font-weight: 500;
+        outline: none;
+    }
+    
+    .colorbutton {
+        background-color: #ffc93a;
+        border: #ffc93a;
+        color: black;
     }
     
     .icon.account::before {
@@ -172,7 +191,7 @@
     }
     
     .left-menu {
-        border: 1px solid #ffc93a;
+        border: 2px solid #ffc93a;
         margin: 0 30px 0 0;
         display: flex;
         align-items: flex-start;
@@ -184,7 +203,7 @@
     
     .main-header {
         display: flex;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #ebebeb;
         padding: 12px;
         justify-content: center;
         align-items: center;
@@ -207,7 +226,7 @@
         font-size: 15px;
         font-weight: 500;
         text-transform: uppercase;
-        margin-left: 15px;
+        margin-left: 8px;
     }
     
     .list {
@@ -223,7 +242,7 @@
     ul.list li {
         display: block;
         padding: 15px;
-        border-bottom: 1px solid gray;
+        border-bottom: 1px solid #ebebeb;
     }
     
     ul.list li:last-child {
