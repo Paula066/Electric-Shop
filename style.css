@@ -199,7 +199,7 @@ ul.list-category li a.categ {
     flex-direction: column;
     max-height: 438px;
     overflow: scroll;
-    width: 40vh;
+    width: 265px;
 }
 
 .main-header {
