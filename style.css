@@ -177,8 +177,9 @@
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        max-height: 452px;
+        max-height: 438px;
         overflow: scroll;
+        width: 61vh;
     }
     
     .main-header {
@@ -203,10 +204,10 @@
     }
     
     .all-category {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
         text-transform: uppercase;
-        margin: 10px;
+        margin-left: 15px;
     }
     
     .list {
@@ -271,7 +272,7 @@
         border: 1px solid #ececec;
         margin-top: 30px;
         margin-bottom: 30px;
-        padding-left: 54px;
+        padding: 30px 30px 30px 58px;
     }
     
     .icons {
@@ -302,8 +303,20 @@
         right: 24px;
     }
     
-    .icons.img::before {
+    .icons.car::before {
         background-image: url('./img/car.png');
+    }
+    
+    .icons.return::before {
+        background-image: url('./img/ico1.png');
+    }
+    
+    .icons.ssl::before {
+        background-image: url('./img/ssl.png');
+    }
+    
+    .icons.returnmoney::before {
+        background-image: url('./img/zw.png');
     }
     
     .block {
@@ -319,11 +332,6 @@
     
     .color {
         color: white;
-    }
-    
-    .img {
-        flex: 1;
-        margin: 30px;
     }
     
     .huge {
