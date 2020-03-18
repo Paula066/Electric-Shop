@@ -471,8 +471,8 @@ span.besttext {
 }
 
 .products-img {
-    min-height: 176px;
-    max-width: 176px;
+    max-width: 100%;
+    padding-top: 100%;
     align-self: center;
     position: relative;
 }
