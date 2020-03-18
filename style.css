@@ -114,6 +114,7 @@
         border-bottom-left-radius: 29px;
         font-size: 20px;
         outline: none;
+        padding-left: 18px;
     }
     
     .submitbutton {
@@ -198,12 +199,11 @@
         flex-direction: column;
         max-height: 438px;
         overflow: scroll;
-        width: 61vh;
+        width: 40vh;
     }
     
     .main-header {
         display: flex;
-        border-bottom: 1px solid #ebebeb;
         padding: 12px;
         justify-content: center;
         align-items: center;
@@ -243,6 +243,10 @@
         display: block;
         padding: 15px;
         border-bottom: 1px solid #ebebeb;
+    }
+    
+    ul.list li:first-child {
+        border-top: 1px solid #ebebeb;
     }
     
     ul.list li:last-child {
@@ -498,22 +502,6 @@
         text-transform: uppercase;
         text-align: right;
         align-self: center;
-    }
-    
-    .searchbar2 {
-        height: 52px;
-        width: 355px;
-        border: 1px solid white;
-    }
-    
-    .submitbutton2 {
-        background-color: #ffc93a;
-        text-transform: uppercase;
-        font-size: 13px;
-        font-weight: 500;
-        border: 1px solid #ffc93a;
-        height: 52px;
-        width: 105px;
     }
     
     .footer-top {
