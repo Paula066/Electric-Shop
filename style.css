@@ -165,8 +165,6 @@ section.header {
 
 .list-category {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 ul.list-category li {
