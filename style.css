@@ -478,14 +478,14 @@ h5 {
 }
 
 .banners__photo {
-    flex-basis: 49%;
+    flex-basis: calc(50% - 10px);
     width: 100%;
     height: 100%;
 }
 
 .banner__img {
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    min-height: 100%;
 }
 
 .banners-img:first-child {
