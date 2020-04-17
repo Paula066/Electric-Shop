@@ -5,132 +5,133 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" initial-scale="1.0">
     <title>Dokument</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <section class="header">
-        <div class="container flex">
-            <div class="split-half">
-                <div class="mobile trolley box">
-                    <a href="#" class="icon account">konto</a>
-                    <a href="#" class="icon trolley">koszyk</a>
+        <div class="header__top">
+            <div class="container">
+                <div class="header__main">
+                    <div class="header__social">
+                        <a href="#" class="header__mail ico">sprzedaz@electricshow.pl</a>
+                        <a href="#" class="header__phone ico"> +48 730 110 678</a>
+                    </div>
+                    <div class="header__contact">
+                        <a href="#" class="header__language">Język:</a>
+                        <a href="#" class="header__currency">Waluta: PLN</a>
+                    </div>
                 </div>
-                <a href="#" class="ico mail">sprzedaz@electricshow.pl</a>
-                <a href="#" class="ico phone"> +48 730 110 678</a>
-            </div>
-            <div class="split-half">
-                <a href="#" class="icoafter language">Język:</a>
-                <a href="#" class="icoafter currency">Waluta: PLN</a>
-            </div>
 
-        </div>
-        <div class="border-bottom-top"></div>
-        <div class="container flex border">
-            <div class="logo box">
-                <img class="logo-img" src="./img/logo.png" alt="">
-            </div>
-            <div class="input box">
-                <input type="text" class="searchbar"><input type="submit" value="szukaj" class="submitbutton" />
-            </div>
-            <div class="trolley box">
-                <a href="#" class="icon account">konto</a>
-                <a href="#" class="icon trolley">koszyk</a>
             </div>
         </div>
-        <div class="border-bottom-top"></div>
-        <div class="container flex category">
-            <div class="hamburger menu">
-                <span></span>
-                <span></span>
-                <span></span>
+        <div class="header__middle">
+            <div class="container">
+                <div class="header__search">
+                    <div class="header__logo">
+                        <img src="./img/logo.png" alt="logo">
+                    </div>
+                    <form class="header__form">
+                        <input type="text" class="header__input">
+                        <button class="header__button">szukaj</button>
+                    </form>
+                    <div class="header__clients">
+                        <a href="#" class="header__account ico">konto</a>
+                        <a href="#" class="header__bin ico">koszyk</a>
+                    </div>
+                </div>
             </div>
-            <ul class="menu-mobile">
-                <li><a href="#" class="categ">kategorie</a></li>
-                <li><a href="#" class="categ">o nas</a></li>
-                <li><a href="#" class="categ">dostawa</a></li>
-                <li><a href="#" class="categ">regulamin</a></li>
-                <li><a href="#" class="categ">kontakt</a></li>
-                <li><a href="#" class="categ">promocje</a></li>
-                <li><a href="#" class="categ">bestsellery</a></li>
-                <li><a href="#" class="categ">outlet</a></li>
-            </ul>
-            <ul class="list-category">
-                <li><a href="#" class="categ">kategorie</a></li>
-                <li><a href="#" class="categ">o nas</a></li>
-                <li><a href="#" class="categ">dostawa</a></li>
-                <li><a href="#" class="categ">regulamin</a></li>
-                <li><a href="#" class="categ">kontakt</a></li>
-            </ul>
-            <ul class="list-category">
-                <li><a href="#" class="categ">promocje</a></li>
-                <li><a href="#" class="categ">bestsellery</a></li>
-                <li><a href="#" class="categ">outlet</a></li>
-            </ul>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <nav class="header__list-box">
+                    <div class="header__list">
+                        <ul class="header__category">
+                            <li><a href="#" class="header__cat">kategorie</a></li>
+                            <li><a href="#" class="header__cat">o nas</a></li>
+                            <li><a href="#" class="header__cat">dostawa</a></li>
+                            <li><a href="#" class="header__cat">regulamin</a></li>
+                            <li><a href="#" class="header__cat">kontakt</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__list">
+                        <ul class="header__category header__category-right ">
+                            <li><a href="#" class="header__cat">promocje</a></li>
+                            <li><a href="#" class="header__cat">bestsellery</a></li>
+                            <li><a href="#" class="header__cat header__cat-last">outlet</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
     </section>
-    <section class="white">
-        <div class="container flex">
-            <div class="left-menu">
-                <div class="main-header">
-                    <div class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div class="all-category box">wszytskie kategorie
+    <section class="main">
+        <div class="container">
+            <div class="main__product">
+                <div class="main__left">
+                    <ul class="main__lists">
+                        <ul class="main__top">
+                            <li>
+                                <i class="fas fa-bars"></i>
+                            </li>
+                            <li><a href="#" class="main__products">wszstkie kategorie</a></li>
+                        </ul>
+                        <li class="main__li"><a href="#" class="main__list">Telewizory - RTV</a></li>
+                        <li class="main__li"><a href="#" class="main__list">AGD</a></li>
+                        <li class="main__li"><a href="#" class="main__list">Narzedzi</a></li>
+                        <li class="main__li"><a href="#" class="main__list">Komputery</a></li>
+                        <li class="main__li"><a href="#" class="main__list">Gry i konsole</a></li>
+                        <li class="main__li"><a href="#" class="main__list">Foto i kamery</a></li>
+                        <li class="main__li"><a href="#" class="main__list">Telefony i zegarki</a></li>
+                        <li class="main__li"><a href="#" class="main__list">Audio</a></li>
+                        <li class="main__li"><a href="#" class="main__list">Akcesoria</a></li>
+                    </ul>
+                </div>
+                <div class="main__right">
+                    <div class="main__photo">
+                        <img class="main__img" alt="" src="./img/mainimg.png">
                     </div>
                 </div>
-                <ul class="list">
-                    <li><a href="#" class="lists">Telewizory - RTV</a></li>
-                    <li><a href="#" class="lists">AGD</a></li>
-                    <li><a href="#" class="lists">Narzedzi</a></li>
-                    <li><a href="#" class="lists">Komputery</a></li>
-                    <li><a href="#" class="lists">Gry i konsole</a></li>
-                    <li><a href="#" class="lists">Foto i kamery</a></li>
-                    <li><a href="#" class="lists">Telefony i zegarki</a></li>
-                    <li><a href="#" class="lists">Audio</a></li>
-                    <li><a href="#" class="lists">Akcesoria</a></li>
-                </ul>
-            </div>
-            <div class="main-img">
-                <img src="./img/mainimg.png" alt="" class="slider">
-                <div class="text main">Power banki</div>
-                <div class="text medium">rózne pojemności</div>
-                <button class="text btn">zobacz</button>
             </div>
         </div>
-        <div class="container square flex">
-            <div class="icons car">
-                <span class="block solid">szybka wysylka</span>
-                <span class="block ">Wysylka w ciągu 24 godzin</span>
-            </div>
-            <div class="icons return">
-                <span class="block solid">szybka wysylka</span>
-                <span class="block">Wysylka w ciągu 24</span>
-            </div>
-            <div class="icons ssl">
-                <span class="block solid">szybka wysylka</span>
-                <span class="block">Wysylka w ciągu 24</span>
-            </div>
-            <div class="icons returnmoney">
-                <span class="block solid">szybka wysylka</span>
-                <span class="block">Wysylka w ciągu 24</span>
+        <div class="main__information">
+            <div class="container">
+                <div class="main__information-box">
+                    <div class="main__order">
+                        <div class="main__car main__flex  ico">
+                            <span class="main__desc-upper ico">szybka wysyłka</span>
+                            <span class="main__desc ico">Wysyłka w ciągu 24h</span>
+                        </div>
+                    </div>
+                    <div class="main__order">
+                        <div class="main__return  main__flex ico">
+                            <span class="main__desc-upper ico">szybka wysyłka</span>
+                            <span class="main__desc ico">Wysyłka w ciągu 24h</span>
+                        </div>
+                    </div>
+                    <div class="main__order">
+                        <div class="main__ssl main__flex ico">
+                            <span class="main__desc-upper ico">szybka wysyłka</span>
+                            <span class="main__desc ico">Wysyłka w ciągu 24h</span>
+                        </div>
+                    </div>
+                    <div class="main__order">
+                        <div class="main__return-money main__flex ico">
+                            <span class="main__desc-uuper ico">szybka wysyłka</span>
+                            <span class="main__desc ico">Wysyłka w ciągu 24h</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container flex banners">
             <div class="banners-img">
-                <img src="./img/banner4.png" class="banner-img" alt="">
-                <div class="text color huge">Smartphony</div>
-                <div class="text color medium2">w dobrych cenach</div>
-                <button class="text btn-normal">zobacz</button>
+                <img src="./img/smart.png" class="banner-img" alt="">
             </div>
             <div class="banners-img">
-                <img src="./img/product.png" class="banner-img" alt="">
-                <div class="text color huge">Tablety</div>
-                <div class="text color medium2">rabatowe końcówki</div>
-                <button class="text btn-normal">zobacz</button>
+                <img src="./img/tabl.png" class="banner-img" alt="">
             </div>
         </div>
         <div class="container">
@@ -200,18 +201,16 @@
                 <div class="price">1800 zl</div>
             </div>
         </div>
-        <div class="container flex banners">
-            <div class="banners-img">
-                <img src="./img/banner3.png" class="banner-img" alt="">
-                <div class="text color huge">Drony</div>
-                <div class="text color medium2">rekreacyjne i profesjonalne</div>
-                <button class="text btn-normal">zobacz</button>
-            </div>
-            <div class="banners-img">
-                <img src="./img/banner2.png" class="banner-img" alt="">
-                <div class="text color huge">Smartwatche</div>
-                <div class="text color medium2">i zegarki</div>
-                <button class="text btn-normal">zobacz</button>
+        <div class="banner">
+            <div class="container">
+                <div class="banner__box">
+                    <div class="banners__photo">
+                        <img src="./img/dron.png" class="banner__img" alt="">
+                    </div>
+                    <div class="banners__photo">
+                        <img src="./img/smartwatch.png" class="banner__img" alt="">
+                    </div>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -411,127 +410,137 @@
         </div>
     </section>
     <section class="footer">
-        <div class="container footer-top flex">
-            <div class="footer-top-icon newsletter box">
-                Newsletter
-            </div>
-            <div class="footer-top-text">
-                bądz na bieząco i zapisz się do naszego newslettera
-            </div>
-            <div class="input box heightinput">
-                <input type="text" class="searchbar"><input type="submit" value="zapisz" class="submitbutton colorbutton" />
-            </div>
-        </div>
-        <div class="container footer-m flex">
-            <div class="footer-medium">
-                <h6>Obsługa klienta</h6>
-                <ul class="footer-lists">
-                    <li>
-                        <a href="#" class="footer-list">Reklamacje</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Odstapienie od umowy - zwroty</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Kontakt z Biurem Obsługi Klienta </a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Status zamówienia</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Odbiór zuzytego sprzętu</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Zgłoś błąd</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-medium">
-                <h6>Zakupy</h6>
-                <ul class="footer-lists">
-                    <li>
-                        <a href="#" class="footer-list">O firmie</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Praca</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Centrum Informacyjne</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Regulamin</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Newsletter - regulamin</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Sprzedawcy w sklepie internetowym</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Dla mediów</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Zasady przetwarzania danych</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-medium">
-                <h6>Informacje</h6>
-                <ul class="footer-lists">
-                    <li>
-                        <a href="#" class="footer-list">Poradniki eksperta</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Montaz i instalacja</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Ubezpieczenia "Gwarancja Plus"</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Raty</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Karta Prezentowa</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Sprzedaz dla firm (B2B)</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Tax Free</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">Promocje</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="footer-medium">
-                <h6>Kontakt</h6>
-                <ul class="footer-lists">
-                    <li>
-                        <a href="#" class="footer-list">INFOLINIA</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">PN -PT 8:00 - 20:00</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list">SB - ND 9:00 - 17:00</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-list"> </a>
-                    </li>
-                    <li>
-                        <a href="#" class="ico mail footer-list">sprzedaz@gmail.com</a>
-                    </li>
-                    <li>
-                        <a href="#" class="ico phone footer-list">+48 678 234 989</a>
-                    </li>
-                </ul>
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__newsletter">
+                    <h6>Newsletter</h6>
+                </div>
+                <div class="footer__desc">
+                    <p>BĄDZ NA BIEZĄCO I ZAPISZ SIĘ DO NASZEGO NEWSLETTERA</p>
+                </div>
+                <form class="footer__form">
+                    <input type="text" class="footer__input">
+                    <button class="footer__button">zapisz</button>
+                </form>
             </div>
         </div>
-        <div class="border-bottom"></div>
-        <div class="container footer-bottom">
-            <div class="ico-logo footer-bootom-text">
-                sklep internetowy na platformie
+        <div class="footer__box">
+            <div class="container">
+                <div class="footer__middle">
+                    <div class="footer__information">
+                        <h6>Obsługa klienta</h6>
+                        <ul class="footer__lists">
+                            <li>
+                                <a href="#" class="footer__list">Reklamacje</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Odstapienie od umowy - zwroty</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Kontakt z Biurem Obsługi Klienta </a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Status zamówienia</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Odbiór zuzytego sprzętu</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Zgłoś błąd</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__information">
+                        <h6>Zakupy</h6>
+                        <ul class="footer__lists">
+                            <li>
+                                <a href="#" class="footer__list">O firmie</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Praca</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Centrum Informacyjne</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Regulamin</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Newsletter - regulamin</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Sprzedawcy w sklepie internetowym</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Dla mediów</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Zasady przetwarzania danych</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__information">
+                        <h6>Informacje</h6>
+                        <ul class="footer__lists">
+                            <li>
+                                <a href="#" class="footer__list">Poradniki eksperta</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Montaz i instalacja</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Ubezpieczenia "Gwarancja Plus"</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Raty</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Karta Prezentowa</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Sprzedaz dla firm (B2B)</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Tax Free</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">Promocje</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__information">
+                        <h6>Kontakt</h6>
+                        <ul class="footer__lists">
+                            <li>
+                                <a href="#" class="footer__list">INFOLINIA</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">PN -PT 8:00 - 20:00</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list">SB - ND 9:00 - 17:00</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__list"> </a>
+                            </li>
+                            <li>
+                                <a href="#" class="ico mail footer-list">sprzedaz@gmail.com</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ico phone footer-list">+48 678 234 989</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer__bottom">
+                <div class="footer__logo">
+                    <img src="./img/minilogo.png" class="footer__img">
+                    <p>sklep internetowy na platformie</p>
+                </div>
+
             </div>
         </div>
     </section>
