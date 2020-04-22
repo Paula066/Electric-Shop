@@ -6,6 +6,7 @@ $(".carousel1").owlCarousel({
     animateOut: "slideOutDown",
     animateIn: "flipInX",
     items: 1,
+    lazyLoad: true,
     autoplayTimeout: 1000,
     autoplay: true
 });
