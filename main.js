@@ -1,15 +1,4 @@
-$(".carousel1").owlCarousel({
-    loop: true,
-    margin: 10,
-    dots: false,
-    nav: false,
-    animateOut: "slideOutDown",
-    animateIn: "flipInX",
-    items: 1,
-    lazyLoad: false,
-    autoplayTimeout: 1000,
-    autoplay: true
-});
+
 
 const Car = function () { }
 const maluch = new Car()
