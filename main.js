@@ -18,6 +18,11 @@ const btnBurger = document.querySelector('.headerMobile__hamburg')
 const mobile = document.querySelectorAll('.mobile');
 const headerTop = document.querySelectorAll('.header__main');
 const headerCategory = document.querySelectorAll('.headerMobile__category');
+const arrowDown = document.querySelector('.mainMobile__arrow');
+const mainMobile = document.querySelectorAll('.mainMobile__list');
+const arrow = document.querySelectorAll('.arrow');
+
+
 const addMobileMenu = () => {
     mobile.forEach((li) => {
         li.classList.toggle('mobile__show');
@@ -32,5 +37,13 @@ const addBurgerMenu = () => {
         li.classList.toggle('headerMobile__show')
     })
 }
+
+const addCategory = () => {
+    mainMobile.forEach((li) => {
+        li.classList.toggle('mainMobile__list--show');
+    })
+    arrow.forEach(ele => { ele.classList.toggle('hide') })
+}
 btnSearch.addEventListener('click', addMobileMenu)
 btnBurger.addEventListener('click', addBurgerMenu)
+arrowDown.addEventListener('click', addCategory)

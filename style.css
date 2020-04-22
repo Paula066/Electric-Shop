@@ -10,6 +10,10 @@
 body {
     font-family: 'Rubik', sans-serif;
 }
+
+.hide {
+    display: none;
+}
 .mobile {
     box-shadow: 4px 4px 18px -6px rgba(0,0,0,0.75);
     padding: 15px;
@@ -29,8 +33,8 @@ body {
 }
 
 .mobile__input {
-    border: 1px solid #ffc93a;
-    width: 60%;
+    border: 1px solid #f9d26b;
+    width: 75%;
     border-top-left-radius: 29px;
     border-bottom-left-radius: 29px;
     outline: none;
@@ -40,16 +44,17 @@ body {
 }
 
 .mobile__button {
-    width: 15%;
+    width: 20%;
     text-transform: uppercase;
     border-top-right-radius: 29px;
     border-bottom-right-radius: 29px;
-    border: 1px solid black;
-    background-color: black;
-    color: white;
+    border: 1px solid #f9d26b;
+    background-color: #f9d26b;
+    color: black;
     outline: none;
     font-size: 16px;
     height: 35px;
+    font-weight: 500;
 }
 
 .mobile__show {
@@ -307,6 +312,16 @@ body {
     height: 100%;
 }
 
+.mainMobile__list {
+    visibility: hidden;
+    max-height: 0;
+}
+
+.mainMobile__list--show {
+    visibility: visible;
+    max-height: 100%;
+}
+
 .item {
     position: relative;
 }
@@ -324,6 +339,21 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
+
+
+.mainMobile__all {
+    display: flex;
+    justify-content: center;
+    border: 3px solid #ffc93a;
+    text-transform: uppercase;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.mainMobile__arrow {
+    margin-left: 20px;
+}
+
 
 .main__top {
     display: flex;
@@ -769,6 +799,10 @@ margin-right: 0;
     .headerMobile__box {
         display: none;
     }
+
+    .mainMobile__category {
+        display: none;
+    }
 }
 
 @media (max-width: 1280px) {
@@ -821,6 +855,9 @@ margin-right: 0;
     }
 
     .headerMobile__box {
+        display: none;
+    }
+    .mainMobile__category {
         display: none;
     }
 }
@@ -931,12 +968,15 @@ margin-right: 0;
     .mobile__search {
         display: none;
     }
+    .mainMobile__category {
+        display: none;
+    }
    
 }
 
 @media (max-width: 720px) {
     .container {
-        width: 620px;
+        width: 480px;
     }
 
     .header__list-box {
@@ -950,7 +990,6 @@ margin-right: 0;
   
     .header__main {
         margin-right: 20px;
-        margin-left: 20px;
     }
 
     .header__main--show {
@@ -960,7 +999,7 @@ margin-right: 0;
 
     .header__search {
         flex-wrap: wrap;
-        margin: 20px 0;
+        margin: 15px 0;
     }
 
     .header__contact {
@@ -992,7 +1031,7 @@ margin-right: 0;
     }
 
     .smallProducts__product {
-        flex-basis: 46%;
+        flex-basis: 44%;
         display: flex;
         justify-content: center;
     }
@@ -1007,7 +1046,7 @@ margin-right: 0;
 
 
     .products__product {
-        flex-basis: 44%;
+        flex-basis: 42%;
         margin-bottom: 25px;
     }
 
@@ -1041,7 +1080,93 @@ margin-right: 0;
         display: none;
     }
 
+    .main__right {
+        flex-basis: 100%;
+        margin-top: 20px;
+    }
+
+    .footer__newsletter::before {
+        left: 28%;
+    }
+
+    .mainMobile__category {
+        display: block;
+    }
+
+    .footer__newsletter::after {
+        display: none;
+    }
+
 
 }
 
-@media (max-width: 520px) {}
+@media (max-width: 520px) {
+    .container {
+        width: 330px;
+    }
+
+    .footer__logo {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__img {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .footer__information {
+        flex-basis: 55%;
+    }
+
+    .footer__button {
+        width: 25%;
+    }
+
+    .footer__input {
+        width: 75%;
+    }
+
+    .footer__desc p {
+        text-align: center;
+    }
+
+    .footer__newsletter::before {
+        left: 12%;
+    }
+
+    .products__product {
+        flex-basis: 100%;
+    }
+
+    .header__logo {
+        height: 100%;
+        width: 50%;
+    }
+
+    .header__logo img {
+        width: 100%;
+    }
+
+    .header__clients .ico::before {
+        background-repeat: 25px;
+    }
+
+    .banners__photo {
+        height: 150px;
+    }
+
+    .smallProducts__product {
+        margin-bottom: 20px;
+    }
+
+    .products__product {
+        font-size: 15px;
+    }
+
+    .header__social {
+
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
