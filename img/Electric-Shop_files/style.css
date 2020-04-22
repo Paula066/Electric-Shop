@@ -20,12 +20,20 @@ body {
     right: 0; 
     margin-bottom: -40px;
     visibility: hidden;
+    transition: .3s linear;
 
+}
+
+.mobile__show {
+   visibility: visible;
+}
+.header {
+    background-color: #ffc93a;
+    margin-bottom: 30px;
 }
 
 .mobile__text {
     margin-bottom: 10px;
-    font-size: 19px;
 }
 
 .mobile__input {
@@ -36,7 +44,7 @@ body {
     outline: none;
     padding-left: 15px;
     font-size: 16px;
-    height: 35px;
+    height: 30px;
 }
 
 .mobile__button {
@@ -48,37 +56,9 @@ body {
     background-color: black;
     color: white;
     outline: none;
-    font-size: 16px;
-    height: 35px;
-}
-
-.mobile__show {
-    visibility: visible;
- }
-
-.headerMobile__category {
-    visibility: hidden;
-    max-height: 0;
-
-}
-
-.headerMobile__show {
-    visibility: visible;
-    max-height: 100%;
-    transition: .3s;
-}
-
-.headerMobile__lists li {
-    padding: 10px 30px;
-    text-transform: uppercase;
-    border-bottom: 1px solid #e6b534;
     font-weight: 500;
-
-}
-
-.header {
-    background-color: #ffc93a;
-    margin-bottom: 30px;
+    font-size: 13px;
+    height: 30px;
 }
 
 .container {
@@ -765,12 +745,6 @@ margin-right: 0;
     margin-top: 50px;
 }
 
-@media (min-width: 1281px) {
-    .headerMobile__box {
-        display: none;
-    }
-}
-
 @media (max-width: 1280px) {
     .container {
         width: 850px;
@@ -936,7 +910,7 @@ margin-right: 0;
 
 @media (max-width: 720px) {
     .container {
-        width: 620px;
+        width: 520px;
     }
 
     .header__list-box {
@@ -949,14 +923,10 @@ margin-right: 0;
 
   
     .header__main {
+        margin-top: 90px;
         margin-right: 20px;
         margin-left: 20px;
     }
-
-    .header__main--show {
-        padding-top: 84px;
-    }
-
 
     .header__search {
         flex-wrap: wrap;

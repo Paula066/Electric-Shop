@@ -16,21 +16,14 @@ const maluch = new Car()
 const btnSearch = document.querySelector('.headerMobile__search');
 const btnBurger = document.querySelector('.headerMobile__hamburg')
 const mobile = document.querySelectorAll('.mobile');
-const headerTop = document.querySelectorAll('.header__main');
-const headerCategory = document.querySelectorAll('.headerMobile__category');
 const addMobileMenu = () => {
-    mobile.forEach((li) => {
-        li.classList.toggle('mobile__show');
-    })
-    headerTop.forEach((li) => {
-        li.classList.toggle('header__main--show')
+    mobile.forEach((e) => {
+        e.classList.toggle('mobile__show');
     })
 }
 
 const addBurgerMenu = () => {
-    headerCategory.forEach(li => {
-        li.classList.toggle('headerMobile__show')
-    })
+
 }
 btnSearch.addEventListener('click', addMobileMenu)
 btnBurger.addEventListener('click', addBurgerMenu)
